@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date "
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tempreture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:paddingLeft="30dp"
+            android:text="tempreture "
+            android:textSize="16sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/temp_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tempreture"
+            android:paddingLeft="30dp"
+            android:text="temp_min "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/temp_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/temp_min"
+            android:paddingLeft="30dp"
+            android:text="temp_max "
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/temp_max"
+            android:paddingLeft="30dp"
+            android:text="wind "
+            android:textSize="16sp"></TextView>
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wind"
+            android:paddingLeft="30dp"
+            android:text="pressure"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    >
+</androidx.cardview.widget.CardView>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="#000000"-->
+    <!--tools:context=".MainActivity">-->
+    <!--<EditText
+        android:id="@+id/city_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:width="400dp"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="Введите город"
+
+        android:textSize="30sp"></EditText>
+
+    <Button
+        android:id="@+id/find_city"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_below="@id/city_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/resorse1"></Button>
+-->
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/temp_max"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="+18"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="30sp"></TextView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/temp_min"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="+18"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="30sp"></TextView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/pressure_t"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:text="pressure"-->
+        <!--android:textSize="22sp"></TextView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/pressure"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/temp_min"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="755"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="30sp"></TextView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/wind_t"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/pressure_t"-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:paddingLeft="30dp"-->
+        <!--android:text="wind"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="22sp"></TextView>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/wind"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/pressure"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="4"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:textSize="30sp"></TextView>-->
+
+
+<!--</LinearLayout>-->
