@@ -15,7 +15,7 @@
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center"
-        android:text="Введите город"
+        android:text="Погода Киев"
 
         android:textSize="30sp"></EditText>
 
